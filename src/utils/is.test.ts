@@ -43,6 +43,6 @@ describe('Utility Functions', () => {
     expect(isIntegerKey('NaN')).toBe(false);
     expect(isIntegerKey('-123')).toBe(false);
   });
-  console.log('1', 1)
+  // console.log('1', 1)
 });
 
