@@ -1,7 +1,8 @@
 {
   "name": "git-manage-project",
+  "type": "module",
+  "version": "0.0.1",
   "private": true,
-  "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
@@ -16,11 +17,11 @@
     "vue": "^3.3.4"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.8",
+    "@antfu/eslint-config": "1.0.0-beta.29",
     "@commitlint/cli": "^18.2.0",
     "@commitlint/config-conventional": "^18.1.0",
     "@vitejs/plugin-vue": "^4.2.3",
-    "eslint": "^8.43.0",
+    "eslint": "^8.52.0",
     "husky": "^8.0.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
